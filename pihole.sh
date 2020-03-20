@@ -3,5 +3,5 @@
 apt update
 apt upgrade -y
 apt install curl -y
-curl -sSL https://install.pi-hole.net | bash --unattended
+curl -sSL https://install.pi-hole.net | bash
 
