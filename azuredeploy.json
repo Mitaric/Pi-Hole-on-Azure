@@ -283,7 +283,7 @@
                             "skipDos2Unix": true
                         },
                         "protectedSettings": {
-                            "fileUris": "",
+                            "fileUris": "https://raw.githubusercontent.com/Mitaric/Pi-Hole-on-Azure/master/pihole.sh",
                             "commandToExecute": "sh pihole.sh"
                         }
                     }
@@ -361,7 +361,7 @@
                             "skipDos2Unix": true
                         },
                         "protectedSettings": {
-                            "fileUris": "",
+                            "fileUris": "https://raw.githubusercontent.com/Mitaric/Pi-Hole-on-Azure/master/pihole.sh",
                             "commandToExecute": "sh pihole.sh"
                         }
                     }
