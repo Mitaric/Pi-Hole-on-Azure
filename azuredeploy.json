@@ -283,7 +283,7 @@
                         "autoUpgradeMinorVersion": true,
                         "settings": {
                             "skipDos2Unix": true,
-                            "fileUris": ["https://github.com/Mitaric/Pi-Hole-on-Azure/blob/master/pihole.sh"],
+                            "fileUris": "https://github.com/Mitaric/Pi-Hole-on-Azure/blob/master/pihole.sh",
                             "commandToExecute": "sh pihole.sh"
                             
                         }
@@ -360,7 +360,7 @@
                         "autoUpgradeMinorVersion": true,
                         "settings": {
                             "skipDos2Unix": true,
-                            "fileUris": ["https://github.com/Mitaric/Pi-Hole-on-Azure/blob/master/pihole.sh"],
+                            "fileUris": "https://github.com/Mitaric/Pi-Hole-on-Azure/blob/master/pihole.sh",
                             "commandToExecute": "sh pihole.sh"
                             
                         }
