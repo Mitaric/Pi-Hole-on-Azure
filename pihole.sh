@@ -16,7 +16,7 @@ apt install curl -y
 DEVICE_IFACE=$(ip route get 8.8.8.8 | awk '{print $5}')
 DEVICE_IPV4=$(ip route get 8.8.8.8 | awk '{print $7}')
 
-#Setup Automated install configurations
+#Setup Automated Install Configurations
 rm /etc/pihole/setupVars.conf
 mkdir -p /etc/pihole
 touch /etc/pihole/setupVars.conf
@@ -42,5 +42,5 @@ chmod +x install-pihole.sh
 ./install-pihole.sh --unattended
 rm install-pihole.sh
 
-#Disable web password
+#Disable Web Password
 echo | pihole -a -p
